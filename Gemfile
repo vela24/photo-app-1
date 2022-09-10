@@ -48,6 +48,7 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'dotenv-rails'
 
+
 #action mailer assistance I looked up
 # gem 'actionview-encoded_mail_to'
 # gem 'sidekiq'
@@ -87,6 +88,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg', "~> 0.11"
+  gem 'pg'
   gem 'rails_12factor'
 end
